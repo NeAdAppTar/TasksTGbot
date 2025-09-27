@@ -22,7 +22,7 @@ class Program
         tasks = LoadTasks();
         allowedIds = LoadAllowed();
 
-        string token = "7556615144:AAGSaS7OmFmF1M0v1nTKxmFkjl5AYkVZIUA";
+        string token = "TOKEN";
         var bot = new TelegramBotClient(token);
 
         using var cts = new CancellationTokenSource();
